@@ -1,0 +1,43 @@
+{
+  "name": "mass-media-platform",
+  "version": "0.0.1",
+  "author": "Aleksandr Popov",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metamask/sdk": "^0.5.6",
+    "@supabase/supabase-js": "^2.26.0",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.9",
+    "@types/react-dom": "18.2.4",
+    "connectkit": "^1.4.0",
+    "encoding": "^0.1.13",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4",
+    "ethers": "^6.6.5",
+    "evergreen-ui": "^7.1.9",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.1",
+    "lokijs": "^1.5.12",
+    "moralis": "^2.22.4",
+    "next": "13.4.4",
+    "pino-pretty": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "siwe": "^2.1.4",
+    "tls": "^0.0.1",
+    "typescript": "5.1.3",
+    "uuid": "^9.0.0",
+    "viem": "^0.3.50",
+    "wagmi": "^1.0.9"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/uuid": "^9.0.2"
+  }
+}
